@@ -28,11 +28,6 @@ Ensure you have the following libraries installed:
 The preprocessing steps involve detecting faces in images, resizing them, and applying various augmentations.
 
 ```python
-import cv2 as cv
-import os
-import numpy as np
-import albumentations as A
-import mediapipe as mp
 
 mp_face_detection = mp.solutions.face_detection
 face_detection = mp_face_detection.FaceDetection(model_selection=1, min_detection_confidence=0.5)
