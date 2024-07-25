@@ -23,19 +23,6 @@ Ensure you have the following libraries installed:
 - NumPy
 - Matplotlib
 
-## Installation
-
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/yourusername/gender-recognition-dataset.git
-    cd gender-recognition-dataset
-    ```
-
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Data Preprocessing
 
 The preprocessing steps involve detecting faces in images, resizing them, and applying various augmentations.
