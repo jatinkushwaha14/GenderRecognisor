@@ -192,7 +192,7 @@ model.save('gender_recogniser.h5')
 # In[ ]:
 
 
-path='/kaggle/input/gender-recognizer/dataset/WOMAN/0029.jpg'
+path='WOMAN/0029.jpg'
 img=cv.imread(path)
 imgrgb=cv.cvtColor(img,cv.COLOR_BGR2RGB)
 results=face_detection.process(imgrgb)
